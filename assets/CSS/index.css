@@ -1,0 +1,56 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.flex-item{
+    width: 50%;
+}
+.main-img{
+    width: 75%;
+    margin: auto;
+    padding: 1.2rem;
+}
+.top-coin-heading{
+    text-align: center;
+    color: #0C356A;
+}
+.flex-horizontal{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    /* creating the animation i.e passing the reference here of @keyframes */
+    animation:slide 20s linear infinite alternate;
+    position: relative;
+    /* overflow: hidden;
+     if we do this then the items scroll i.e animate but they go from right to left and completely invisible and when going from left to right then 2 elements did not come to screen so to fix this we hide to overflow of the entire section */
+}
+.card-image{
+    height: 4rem;
+    padding: 0.7rem 1.2rem 0.7rem;
+    margin-right: 1.5rem;
+}
+.flex-item-small{
+    min-width: 30rem;
+}
+.top-coin-section{
+    margin-top: 3rem;
+    /* margin-bottom: 15rem; */
+}
+/* Creating an Scrollable effect to the top coins */
+
+@keyframes slide {
+   0%{
+    right: 0px;
+
+   }
+   100%{
+    right: 100%;
+   } 
+}
+/* there is a issue with the section of top coins that if we take 6 small cards then we have an scrollable on x axis and if it is not working properly ie while going from left to right 2 elements did not show and while reverse the elements gets invisible the concept i understand is that i give the overflow hidden to the flex horizontal so it is in the section and div and they are not overflow hidden so the content does not get throught it is like a wall  */
+.top-coin-section{
+    overflow: hidden;
+}
+

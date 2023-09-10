@@ -1,0 +1,29 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.main-contents{
+    width:calc(75% - 7rem);
+    padding-top: 10rem;
+    padding-right: 7rem;
+}
+.main-contents >h1{
+    color: #15133C;
+}
+.main-img{
+    padding: 8rem;
+    width: calc(25% - 16rem);   
+}
+.space-around{
+    justify-content: space-evenly;
+}
+#coin-description-detail{
+    text-align: justify;
+}
+/* #price-history{
+    height: 25%;
+    width: 100%;
+} */

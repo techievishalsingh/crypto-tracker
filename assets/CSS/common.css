@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+
+}
+body{
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    background-color: #FFF3DA;
+    padding-bottom: 8rem;
+    /* padding bottom gives the space from the bottom as the footer is relative it gets like above the body so while giving padding if the content hides beneath it it gets out and visible to user */
+    /* margin-bottom: 20rem; */
+    min-height: calc(100vh - 8rem);
+}
+
+
+/* Utility class */
+/* This is for inlining element */
+.d-inline{
+    display: inline; 
+}
+/* This is for floating element */
+.f-right{
+    float: right;
+}
+.f-left{
+    float: left;
+}
+/* This is for font size */
+.big-font{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.medium-font{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.below-medium-font{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.para-font{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.para-font-bold{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.nav-button{
+    background-color: #ffffff;
+    border: 1px solid #BEADFA;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    transition: all 0.25s;
+}
+.nav-button:hover{
+    background-color: #BEADFA;
+    color: #ffffff;
+    padding: 0.77rem 1.7rem;
+}
+.ml-2{
+    margin-left: 2rem;
+}
+.mr-2{
+    margin-right: 2rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3-5{
+    margin-top: 3.5rem;
+}
+.mb-3-5{
+    margin-bottom: 3.5rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mt-7{
+    margin-top: 7rem;
+}
+.ml-7{
+    margin-left: 7rem;
+}
+.mr-7{
+    margin-right: 7rem;
+}
+.mb-7{
+    margin-bottom: 7rem;
+}
+.ml-15{
+    margin-left: 15rem;
+}
+.bg-pinkish{
+    background-color: #DFCCFB;
+}
+.align-center{
+    align-items: center;
+    text-align: center;
+}
+
+/* End of utility class */
+nav{
+    background-color: #ffffff;
+    padding: 2rem;
+}
+.logo-img{
+    height: 4rem;
+    vertical-align: top;
+}
+.title{
+    vertical-align: top;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+}
+/* This is for footer class */
+.footer-img{
+    height: 2rem;
+    align-items: center;
+    margin: auto 1rem;
+
+}
+footer{
+    /* margin-top: 5rem; */
+    background-color: #BEADFA;
+    padding: 0.7rem;
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 1.4rem);
+}
+.para-font-footer{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.color-dark-blue{
+    color:#15133C;
+}
+#main-title{
+    cursor: pointer;
+}
