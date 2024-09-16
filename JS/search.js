@@ -48,7 +48,7 @@ function create_single_card(index,logo,name,symbol,coinID){
 
     const card_info =document.createElement("a")
     card_info.innerHTML="More Info";
-    card_info.href='./detail.html?id=' + coinID;
+    card_info.href='/CRYPTO_TRACKER/detail.html?id=' + coinID;
 
     const search_result_card =document.createElement("div");
     search_result_card.classList.add('single-search-result','card');
