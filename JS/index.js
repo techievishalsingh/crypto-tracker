@@ -37,7 +37,7 @@ function render(coindata,conversionrate){
 //Here we are manipulating the dom i.e we are removing the html that we created there which is the displaying of the card in transition and replacing with creating that same thing through javascript 
 
 function insertcryptocard(name,price,thumb){
-    const price_para =document.createElement('p');
+    const price_para =document.createElement('h1');
     price_para.innerText=`₹ ${price}`;//here i have got an error where i use () instead of = and the error says it is not a function so remember it further
 
     const name_head = document.createElement('h1');
