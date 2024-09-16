@@ -3,9 +3,9 @@ function convertToJSON(response){
 }
 
 document.getElementById('nav-search-button').addEventListener('click',function (){
-    window.location.href="/CRYPTO-TRACKER/search.html";
+    window.location.href="../search.html";
 })
 
 document.getElementById('main-title').addEventListener('click',function(){
-    window.location.href='/CRYPTO-TRACKER/index.html';
+    window.location.href='../index.html';
 })
